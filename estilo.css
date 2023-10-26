@@ -197,8 +197,8 @@ footer{
 
 .video{
 	display: flex;
-	width: 560px;
-	height: 315px;
+	width: 360px;
+	height: 215px;
 	/* width="560vw" height="315vw" */
 	overflow: hidden;
 	/* padding-top: 56.25%; /* 16:9*/ 
@@ -405,10 +405,10 @@ p{
 /*conteudo lado a lado*/
 @media screen and (min-width: 450px) and ( max-width: 1400px) {
 	.video1{
-		width: 560px;
-		height: 315px;
+		width: 360px;
+		height: 215px;
 		/* width="560vw" height="315vw" */
-		overflow: hidden;
+		
 		/* padding-top: 56.25%; /* 16:9*/ 
 		
 	}
