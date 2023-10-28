@@ -2,6 +2,9 @@
 	/*background-color: 	#1C1C1C;*/
 	/*border: 1px solid purple;*/
 }
+.borda{
+	border: 1px solid rgb(255, 255, 255);
+}
 body{
 	color: null;
 	background-color: 	#1C1C1C;
@@ -105,14 +108,16 @@ button:hover{
 	background-color: white;
 	color: black;
 }
-/**/
-
+/* margem 1*/
+.margem1{
+	margin: 2.5%;
+}
 /*formulario*/
-/* form{
-	background-color: black;
+form{
+	background-color: #1C1C1C;
 	float: right;
 	padding: 14px 16px;
-} */
+}
 .direita form{
 	background-color: black;
 	float: right;
@@ -151,19 +156,24 @@ label{
 
 /* tabela e elementos da tabela */
 table{
-	background-color: white;
+	background-color: #1C1C1C;
+	border:1px solid rgb(255, 255, 255);
 	size: 30%;
 	font-family: 'Cinzel', serif;
 }
 th{
-	color: white;
+	color: #ffffff;
+	border:1px solid rgb(255, 255, 255);
 	font-family: 'Cinzel', serif;
 	text-align: center;
+	margin: 2px;
 }
 td{
 	color: white;
+	border:1px solid rgb(255, 255, 255);
 	font-family: 'Cinzel', serif;
 	text-align: center;
+	margin: 2px;
 }
 .tabela{
 	size: 100%;
